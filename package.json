@@ -1,0 +1,29 @@
+{
+  "name": "clipshaper",
+  "version": "1.0.0",
+  "description": "shape contents in clipboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./",
+    "clear": "rm -rf ./dist",
+    "build": "electron-builder -mw"
+  },
+  "author": "RMitsui",
+  "license": "ISC",
+  "build": {
+    "appId": "com.rm.clipshaper",
+    "productName": "clipshaper",
+    "files":[
+      "main.js",
+      "js/*",
+      "clip.html",
+      "icon-16.*",
+      "package.json"
+
+    ]
+  },
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5"
+  }
+}
