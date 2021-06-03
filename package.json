@@ -9,7 +9,7 @@
     "build": "electron-builder -mw"
   },
   "author": "RMitsui",
-  "license": "ISC",
+  "license": "MIT",
   "build": {
     "appId": "com.rm.clipshaper",
     "productName": "clipshaper",
